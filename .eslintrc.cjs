@@ -4,14 +4,15 @@ module.exports = {
     es2021: true
   },
   extends: [
-    'standard'
+    "standard"
   ],
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module'
+    ecmaVersion: "latest",
+    sourceType: "module"
   },
   rules: {
-    semi: ['error', 'always'],
-    quotes: ['error', 'double']
-  }
-}
+    semi: ["error", "always"],
+    quotes: ["error", "double"]
+  },
+  ignorePatterns: ["*.cjs"]
+};
