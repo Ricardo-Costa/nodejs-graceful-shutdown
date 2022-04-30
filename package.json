@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-graceful-shutdown",
+  "version": "1.0.0",
+  "description": "The best practices to prevent unexpected application crashes, that maintains an open database connection and others unwanted events.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricardo-Costa/nodejs-graceful-shutdown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricardo-Costa/nodejs-graceful-shutdown/issues"
+  },
+  "homepage": "https://github.com/Ricardo-Costa/nodejs-graceful-shutdown#readme"
+}
