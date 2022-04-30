@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The best practices to prevent unexpected application crashes, that maintains an open database connection and others unwanted events.",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/Ricardo-Costa/nodejs-graceful-shutdown/issues"
   },
-  "homepage": "https://github.com/Ricardo-Costa/nodejs-graceful-shutdown#readme"
+  "homepage": "https://github.com/Ricardo-Costa/nodejs-graceful-shutdown#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
 }
