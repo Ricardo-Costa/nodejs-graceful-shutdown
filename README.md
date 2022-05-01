@@ -3,7 +3,7 @@
 The best practices to prevent unexpected application crashes, that maintains an open database connection and others unwanted events.
 
 **The Code**
-- [Find main file here](https://github.com/Ricardo-Costa/nodejs-graceful-shutdown/blob/8e9b0bda6d734abebc9307734209164bb9791162/src/index.js)
+- [Find main file here](https://github.com/Ricardo-Costa/nodejs-graceful-shutdown/blob/main/src/index.js)
 
 **Test Function**
 - Start Application
